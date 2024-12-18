@@ -12,6 +12,7 @@ const  Compose =()=> {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
+
     e.preventDefault();
     // Here you would handle sending the email logic
     alert("Email sent!");
